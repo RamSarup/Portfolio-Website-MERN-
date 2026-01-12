@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: #000;
+  overflow-x: hidden;
+}
+#project {
+  background-color: #020617;
+  color: #f8fafc;
+  font-size: 2.2rem;
+  text-align: center;
+  padding: 40px 0 20px;
+  letter-spacing: 1px;
+}
+
+.skill{
+  background: #000;
+  color: aqua;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.skill-collection {
+  display: flex;
+  overflow: hidden;
+}
+
+@keyframes spin {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.skill-collection:hover {
+  animation-play-state: paused;
+}
